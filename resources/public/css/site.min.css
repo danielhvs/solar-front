@@ -1,0 +1,125 @@
+.vertical {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.login {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.gestao-editar {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+}
+
+.gestao-cpfs {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.gestao {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.gestao-parametro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.detalhes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+}
+
+.detalhe {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+
+.filtros {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.h {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.v {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.c {
+    justify-content: center;
+}
+
+.jsa {
+    justify-content: space-around; 
+}
+
+.ai-s {
+    align-items: stretch;
+}
+
+.titulo {
+    color: #a7c600;
+}
+
+.texto {
+    color: #556684;
+}
+
+.botao {
+    color: #FFFFFF;
+    background-color: #a7c600;
+}
+
+.borda {
+    border-style: solid;
+    color:  #a7c600;
+}
+
+.entrada-texto {
+    border: none;
+    border-bottom: 2px solid;
+    text-align: center;
+}
