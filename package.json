@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "lein do clean, uberjar",
+    "build": "curl https://raw.githubusercontent.com/technomancy/leiningen/stable/bin/lein | sh && lein do clean, uberjar",
     "test": "echo \"No test specified\" && exit 1",
     "start": "java $JVM_OPTS -cp target/solar-frontend.jar clojure.main -m solar.server"
   },
@@ -18,3 +18,5 @@
   },
   "homepage": "https://github.com/danielhvs/solar-front#readme"
 }
+
+
