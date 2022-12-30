@@ -3,9 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "scripts": {
-    "build": "echo \"No build specified\" && exit 1",
+    "build": "lein do clean, uberjar",
     "test": "echo \"No test specified\" && exit 1",
-    "start": "node index.js"
+    "start": "java $JVM_OPTS -cp target/solar-frontend.jar clojure.main -m solar.server"
   },
   "repository": {
     "type": "git",
