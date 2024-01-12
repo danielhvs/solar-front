@@ -216,7 +216,7 @@
 (defn- feedback []
   (let [feedback (rf/subscribe [::subs/feedback])]
     (when (seq @feedback)
-      [:label.texto @feedback])))
+      [:label.erro @feedback])))
 
 ;; Componentes
 (defn- card-info [titulo & componentes]

@@ -108,6 +108,10 @@
     color: #556684;
 }
 
+.erro {
+    color: red;
+}
+
 .botao {
     color: #FFFFFF;
     background-color: #a7c600;
